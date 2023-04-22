@@ -1,3 +1,11 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
 /*sobre nosotros style*/
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Delicious+Handrawn&family=Dongle:wght@300;700&family=Fasthand&family=Kanit:wght@600&family=Noto+Sans+JP:wght@300&family=Poppins:wght@600;900&family=Rampart+One&display=swap');
 #imagen{
