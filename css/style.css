@@ -89,3 +89,20 @@ flex-wrap: wrap;
         padding-left: 2.2rem;
   }}
   /*sobre nosotros style*/
+
+/*inicio css index*/
+
+.text-titulo-articulo{
+    color: #000000;
+    transition: color 500ms;
+}
+.text-titulo-articulo:hover{
+    color: #4d79ff;
+}
+
+.container-img :hover{
+    transform: translate(0px,-10px);
+    transition: 500ms;
+}
+
+/*fin css index*/
