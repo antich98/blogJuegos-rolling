@@ -15,3 +15,4 @@ git clone https://github.com/antich98/blogJuegos-rolling.git
 - [Santiago Antich Llarrull](https://github.com/antich98) 
 - [Facundo Carabajal](https://github.com/carabajal-facundo)
 - [Enzo Facundo Cajal](https://github.com/FacundoCajal199)
+- [Tamara Salas](https://github.com/Tamisalas96) 

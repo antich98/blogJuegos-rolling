@@ -1,3 +1,97 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+/*sobre nosotros style*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Delicious+Handrawn&family=Dongle:wght@300;700&family=Fasthand&family=Kanit:wght@600&family=Noto+Sans+JP:wght@300&family=Poppins:wght@600;900&family=Rampart+One&display=swap');
+#imagen{
+    background-image:url(../img/fondo.png) ;
+    padding: 12rem 0;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+   
+}
+#style{
+  font-weight: 900;
+font-family: 'Kanit', sans-serif;
+color: aliceblue;
+font-size: 3.5rem;
+max-width: 40%;
+position: relative;
+right: 5rem;
+}
+.style-body{
+    font-weight: 900;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+}
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 2rem;
+    gap: 40px;
+}
+.iconos{
+display: flex;
+flex-wrap: wrap;
+
+}
+.bloque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.iconos img{
+    width: 140px;
+}
+.iconos span{
+    padding: 0;
+    margin: 0;
+   
+}
+.contenido p{
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    #style{
+     width: 100%;
+      font-weight: 900;
+     max-width: 80%;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+   position: none;
+   right: 0;
+    }
+    #imagen{
+        background-image:url(../img/fondo.png) ;
+        padding: 10rem 0;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position: center end;
+       
+    }
+    .contenedor-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding:0 1rem;
+    }
+    .iconos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 2.2rem;
+  }}
+  /*sobre nosotros style*/
+
+/*inicio css index*/
+
 .text-titulo-articulo{
     color: #000000;
     transition: color 500ms;
@@ -10,3 +104,5 @@
     transform: translate(0px,-10px);
     transition: 500ms;
 }
+
+/*fin css index*/
