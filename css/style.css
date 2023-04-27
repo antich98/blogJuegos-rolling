@@ -60,6 +60,7 @@ flex-wrap: wrap;
     font-size: 1.2rem;
 }
 @media (max-width: 768px) {
+    
     #style{
      width: 100%;
       font-weight: 900;
@@ -87,7 +88,9 @@ flex-wrap: wrap;
         display: flex;
         flex-wrap: wrap;
         padding-left: 2.2rem;
-  }}
+  }
+  
+}
   /*sobre nosotros style*/
 
 /*inicio css index*/
@@ -106,3 +109,28 @@ flex-wrap: wrap;
 }
 
 /*fin css index*/
+h1,h2,h3{
+    font-weight: 900;
+    font-family: 'Kanit', sans-serif;
+}
+.btn-tw{
+width: 50%;
+background: #148aff;
+color: aliceblue;
+padding: 10px;
+border: none;
+}
+.btn-face{
+width: 50%;
+background: #033478;
+color: aliceblue;
+padding: 10px;
+border: none;
+}
+.tamanioArticulo{
+width: 50%;
+}
+@media (max-width: 768px){
+    .tamanioArticulo{
+        width: 100%;}
+}
