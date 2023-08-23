@@ -11,6 +11,8 @@ En una terminal ejecuta el siguiente comando:
 ```
 git clone https://github.com/antich98/blogJuegos-rolling.git
 ```
+## Puedes probar nuestro sitio con el siguiente link: 
+https://nerdoblog.netlify.app/
 ## Autores
 - [Santiago Antich Llarrull](https://github.com/antich98) 
 - [Facundo Carabajal](https://github.com/carabajal-facundo)
